@@ -1,0 +1,216 @@
+.slider-main {
+	position: absolute;
+	width: 100%;
+	height: 410px;
+	z-index: 2;
+	top: 90px;
+}
+
+
+.title {
+	width: 300px;
+	height: 410px;
+	background-color: green;
+	text-align: center;
+	color: #fff;	
+}
+
+.one_info_block .swiper-container {
+  width: 244px;
+  height: 142px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.one_info_block .swiper-wrapper{
+	height: 142px !important;
+}
+.one_info_block .swiper-slide{
+	height: 142px;
+	padding-left: 0;
+	text-align: center;
+}
+.one_info_block .swiper-slide img{
+	width: 244px;
+	height: 142px;
+}
+.one_info_block .pagination {
+  position: absolute;
+  z-index: 20;
+  left: 0px;
+  width: 100%;
+  bottom: -2px;
+}
+.one_info_block .swiper-pagination-switch {
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-image: url('../images/pagination_s.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.one_info_block .swiper-active-switch {
+  background-image: url('../images/pagination_s.png');
+  background-position: -13px 0;
+  background-repeat: no-repeat;
+}
+/* swipper slider demo style (END) */
+
+.clr{
+	clear: both;
+}
+
+/* one slide content wrap block */
+.one_info_block{
+	display: inline-block;
+	width: 245px;
+	height: 352px;
+	border-radius:15px;
+	position: relative;
+	padding: 11px 13px;
+	background-color: #ffffff;
+	margin-top: 35px;
+	border-top: 1px solid #e3f2ff;
+	border-bottom: 1px solid #e3f2ff;
+	margin-left: 20px;
+}
+.slider_s_block{
+	width: 244px;
+	margin: 0px auto;
+	padding-top: 2px;
+}
+/* one slide content wrap block (END) */
+
+/* slider inner text information */
+.slider_i_description{
+	margin: 0px auto 5px;
+	min-height: 147px;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 20px;
+	height: 147px;
+}
+/* slider inner text information */
+
+/* slider add to favorites button */
+.add_fav_block{
+	position: absolute;
+	width: 68px;
+	height: 28px;
+	left: 50%;
+	margin-left: -34px;
+	top: -28px;
+	background-image: url('../images/favorite_block.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	cursor: pointer;
+}
+.add_favorites{
+	display: block;
+	width: 19px;
+	height: 16px;
+	background-image: url('../images/favorite_add.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.add_favorites:hover{
+	/* background-position: -20px 0; */
+}
+.add_favorites:active{
+	/* background-position: -20px 0; */
+}
+.add_fav_act{
+ 	background-position: -20px 0;
+}
+
+/* slider add to favorites button (END) */
+
+/* slider inner button for game buy */
+.slider_buy_game{
+	display: block;
+	min-width: 98px;
+	float: right;
+	font-size: 14px;
+	color: #808080;
+	font-family: Helvetica;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 4px 5px;
+	border: 1px solid #dedede;
+	background-color: #d6d6d6;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 5px;
+}
+.slider_buy_game:hover{
+	background-color: #ed1c24;
+	color: #ffffff !important;
+}
+/* slider inner button for game buy (END) */
+
+.pag_bg{
+	height: 25px;
+	width: 100%;
+	position: absolute;
+	background-color: #fff;
+	z-index: 19;
+	bottom: 0;
+}
+
+.slidesjs-pagination{
+	text-align: center;
+	padding-top: 3px;
+	height: 27px;
+}
+
+.slidesjs-pagination li{
+	display: inline-block;
+}
+.slidesjs-pagination li a {
+	display: inline-block;
+    overflow: hidden;
+    padding-top: 27px;
+    width: 30px;
+    height: 0px !important;
+    position: relative;
+}
+.slidesjs-pagination li a:before{
+	content: '';
+	display: block;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+    position: absolute;
+	top: 4px;
+	left: 6px;
+	width: 18px;
+	height: 18px;
+}
+.slidesjs-pagination li a.active:before{
+	content: '';
+	display: block;
+    border-radius: 50%;
+    background-color: #f72b3a;
+    position: absolute;
+	top: 4px;
+	left: 6px;
+	width: 18px;
+	height: 18px;
+}
+.slidesjs-container{
+	height: 142px !important;
+}
+
+.out-swipper {
+	height: 410px;
+}
+
+.out-swipper > div > .swiper-slide {
+	height: 410px;
+	width: 300px;
+	padding-left: 15px;
+}

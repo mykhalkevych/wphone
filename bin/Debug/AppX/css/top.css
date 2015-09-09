@@ -1,0 +1,144 @@
+.top {
+	height: 60px;
+	padding-top: 10px;
+	background: url('../images/top.png');
+	border-radius: 0 0 10px 10px;
+	width: 445px;
+	top: 0;
+	left: 50%;
+	margin-left: -237px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: absolute;
+	z-index: 3;
+}
+
+
+.top>a{
+	float: left;
+	margin-right: 15px;
+}
+
+.info {
+	height: 50px;
+	width: 70px;
+	text-align: center;
+	background: #fff;
+	line-height: 50px;
+	float: left;
+	border-radius: 6px;
+	color: #ed1c24 !important;
+	font-size: 24px;
+	display: block;
+}
+
+.favorite {
+	height: 50px;
+	width: 48px;
+	background: #fff;
+	background-image: url("../images/heart.png");
+	background-position: center 16px;
+	background-repeat: no-repeat;
+	float: left;
+	border-radius: 6px;
+	display: block;
+}
+
+.favorite:hover{
+	background-position: center -44px;
+}
+
+.favorite2{
+	background-position: center -44px;
+}
+
+.top .favorite{
+	margin-right: 0;
+}
+.sbOptions{
+	left: 0;
+	padding-left: 0px;
+	list-style: none;
+}
+.sbHolder {
+  	height: 50px;
+	background: white;
+	position: relative;
+	width: 140px;
+	float: left;
+	margin-right: 14px;
+	border-radius: 5px;
+}
+.sbHolder .sbSelector {
+	line-height: 50px;
+	display: block;
+	outline: none;
+	font-size: 24px;
+	font-family: Arial;
+	text-decoration: none;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	color: #ed1c24 !important;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.sbHolder .sbSelector:focus {
+  outline: none;
+}
+.sbHolder .sbOptions {
+	list-style: none;
+	left: 3px;
+	right: 3px;
+	top: 50px !important;
+	border-radius: 4px;
+	position: absolute;
+	bottom: auto !important;
+	z-index: 15;
+	overflow-y: none;
+	max-height: 1000px !important;
+	height: auto !important;
+}
+.sbHolder .sbOptions li {
+	background: #f7f7f7;
+	padding: 0 1px;
+	border-top: none;
+}
+
+.sbHolder .sbOptions li:last-child {
+	border-radius: 0 0 10px 10px;
+}
+.sbHolder .sbOptions li a {
+  padding: 7px 0px;
+  line-height: 26px;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial;
+}
+.sbHolder .sbOptions li:hover a{
+	color: #ed1c24;
+}
+.sbHolder .sbOptions li:hover{
+	background: #dddddd;
+}
+
+.sbHolder:focus {
+  outline: none;
+  color: #ed1c24;
+}
+.select_box+.sbHolder .sbOptions li a{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.flex-slide {
+	margin-left: 60px;
+}

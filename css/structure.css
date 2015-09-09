@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div[id=main] {
+	min-height: 635px !important;
+	height: 100%;
+}
+
+.child{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('../images/child.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100%;
+}
+
+.loader {
+	position: absolute;
+	width: 100%;
+	height: 100% !important;
+	z-index: 100;
+	background-color: #b8e5ff;
+	background-image: url('../images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.loader_video 
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: 101;
+    overflow: hidden;
+    background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+    top: 0;
+	bottom: 0;
+}
+.letter{
+	opacity: 0;
+	display: inline-block;
+}
+.spalsh_text{
+	/*width: 735px;
+	margin: 0 auto;
+	height: 185px;
+	position: relative;*/
+	width: 735px;
+	margin: 0 auto;
+	height: 185px;
+	position: absolute;
+	top: 50%;
+	margin-top: -93px;
+	left: 50%;
+	margin-left: -367px;
+}
+.letter img{
+	width: 100%;
+}
+.dotlet{
+	position: absolute;
+	left: 103px;
+	top: 4px;
+}
+.dot2let{
+	position: absolute;
+	right: 151px;
+	top: 4px;
+}
+
+.gohome {
+	display: block;
+	height: 42px;
+	position: absolute;
+	z-index: 100;
+	top: 20px;
+	display: none;
+	right: 0;
+	width: 35px;
+	border-radius: 13px 0 0 13px;
+	box-shadow: 0px 0px 10px #698697;
+	background: url(../images/backbutton.png) #e7e7e7 no-repeat center;
+}
+
+.nema-fav {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 3;
+	top: 250px;
+	display: none;
+}
+
+.nema-fav span{
+	color: #ed1c24;
+	font-size: 24px;
+	display: inline-block;
+	background-color: #fff;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	border-radius: 5px;
+}
+.spalsh_text{
+	/*width: 735px;
+	margin: 0 auto;
+	height: 185px;
+	position: relative;*/
+	width: 480px;
+	margin: 0 auto;
+	height: 130px;
+	position: absolute;
+	top: 50%;
+	margin-top: -65px;
+	left: 50%;
+	margin-left: -240px;
+}
+.klet img{
+	width: 60px;
+}
+.ilet img{
+	width: 20px;
+}
+.dlet img{
+	width: 53px;
+}
+.dotlet{
+	left: 66px;
+top: 5px;
+}
+.dotlet img{
+	width: 18px;
+}
+.elet img{
+	width: 51px;
+}
+.rlet img{
+	width: 35px;
+}
+.ulet img{
+	width: 51px;
+}
+.dlet2 img{
+	width: 55px;
+}
+.ilet2 img{
+	width: 18px;
+}
+.tlet img{
+	width: 41px;
+}
+.elet1 img{
+	width: 48px;
+}
+.dot2let{
+	right: 108px;
+	top: 5px;
+}
+.dot2let img{
+width: 18px;
+}
+.text img{
+	width: 468px;
+}

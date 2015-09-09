@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHPANER</Machine>
+    <WindowsUser>Oleg</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\fav.css">
+      <PackagePath>css\fav.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\info.css">
+      <PackagePath>css\info.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\jquery.mobile-1.4.2.css">
+      <PackagePath>css\jquery.mobile-1.4.2.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\slider.css">
+      <PackagePath>css\slider.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\structure.css">
+      <PackagePath>css\structure.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\swiper.css">
+      <PackagePath>css\swiper.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\css\top.css">
+      <PackagePath>css\top.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\ajax-loader.gif">
+      <PackagePath>images\ajax-loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\loader.gif">
+      <PackagePath>images\loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\splash.gif">
+      <PackagePath>images\splash.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\backbutton.png">
+      <PackagePath>images\backbutton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\Badge-logo-24.png">
+      <PackagePath>images\Badge-logo-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\child.png">
+      <PackagePath>images\child.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\d.png">
+      <PackagePath>images\d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\d1.png">
+      <PackagePath>images\d1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\E.png">
+      <PackagePath>images\E.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\e1.png">
+      <PackagePath>images\e1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\favorite_add.png">
+      <PackagePath>images\favorite_add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\favorite_block.png">
+      <PackagePath>images\favorite_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\fbutton.png">
+      <PackagePath>images\fbutton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\gbutton.png">
+      <PackagePath>images\gbutton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\heart.png">
+      <PackagePath>images\heart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\i.png">
+      <PackagePath>images\i.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\i1.png">
+      <PackagePath>images\i1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\idot.png">
+      <PackagePath>images\idot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\idot1.png">
+      <PackagePath>images\idot1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\K.png">
+      <PackagePath>images\K.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\Logo-150.png">
+      <PackagePath>images\Logo-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\mobileLC.png">
+      <PackagePath>images\mobileLC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\pagination_s.png">
+      <PackagePath>images\pagination_s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\r.png">
+      <PackagePath>images\r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\screen-xhdpi-landscape.png">
+      <PackagePath>images\screen-xhdpi-landscape.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\Small-logo-30.png">
+      <PackagePath>images\Small-logo-30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\t.png">
+      <PackagePath>images\t.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\top.png">
+      <PackagePath>images\top.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\u.png">
+      <PackagePath>images\u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\images\Wide-logo-310.png">
+      <PackagePath>images\Wide-logo-310.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\cordova.js">
+      <PackagePath>js\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\jquery.js">
+      <PackagePath>js\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\jquery.mobile-1.4.2.min.js">
+      <PackagePath>js\jquery.mobile-1.4.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\plugins\idangerous.swiper.min.js">
+      <PackagePath>js\plugins\idangerous.swiper.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\plugins\jquery.dotdotdot.min.js">
+      <PackagePath>js\plugins\jquery.dotdotdot.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\plugins\jquery.slides.min.js">
+      <PackagePath>js\plugins\jquery.slides.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\plugins\selectbox.js">
+      <PackagePath>js\plugins\selectbox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\ready\func.js">
+      <PackagePath>js\ready\func.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\js\ready\init.js">
+      <PackagePath>js\ready\init.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\song.mp3">
+      <PackagePath>song.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oleg\Documents\Visual Studio 2012\Projects\mlc\mlc\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>MLC3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">   
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Ссылки WinJS -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Cordova -->
+    <script src="/js/cordova.js"></script>
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/structure.css" />
+    <link rel="stylesheet" href="css/top.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/info.css" />
+    <link rel="stylesheet" href="css/fav.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+
+
+    <script src="js/jquery.js"></script>
+    <script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        setTimeout(function() {
+            navigator.splashscreen.hide();
+        }, 1100);
+
+        setTimeout(function() { 
+          playAudio('song.mp3');
+        }, 1100);
+
+        setTimeout(function() { 
+          var i = 0; 
+          var interval = setInterval(function() {
+              if(i > $('.letter').length)
+              {
+                  clearInterval(interval);
+                  $('.loader_video').fadeOut(10);
+              }
+              $('.letter').eq(i).animate({
+                  opacity: 1,
+              }, 100 );
+              ++i;
+          }, 295);
+        }, 700);   
+    }
+    </script>
+
+    <script>
+       $(document).on("mobileinit", function(){
+        $.mobile.defaultPageTransition = "none";
+        $.mobile.allowCrossDomainPages = true;
+        $.mobile.phonegapNavigationEnabled = true;
+      });
+    </script>
+
+    <!-- DOC READY JS -->
+    <script src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/ready/init.js"></script>
+    <script src="js/ready/func.js"></script>
+
+    <!-- PLUGIN JS -->
+    <script src="js/plugins/idangerous.swiper.min.js"></script>
+    <script src="js/plugins/jquery.slides.min.js"></script>
+    <script src="js/plugins/jquery.dotdotdot.min.js"></script>
+    <script src="js/plugins/selectbox.js"></script>
+    <script>
+       var my_media = null;
+        var mediaTimer = null;
+        // Play audio
+        function playAudio(src) {
+            // Create Media object from src
+            my_media = new Media(src, onSuccess, onError);
+            // Play audio
+            my_media.play();
+            // Update my_media position every second
+            if (mediaTimer == null) {
+                mediaTimer = setInterval(function() {
+                    // get my_media position
+                    my_media.getCurrentPosition(
+                        // success callback
+                        function(position) {
+                            if (position > -1) {
+                                setAudioPosition((position) + " sec");
+                            }
+                        },
+                        // error callback
+                        function(e) {
+
+                        }
+                    );
+                }, 1000);
+            }
+        }
+        // Pause audio
+        function pauseAudio() {
+            if (my_media) {
+                my_media.pause();
+            }
+        }
+        // Stop audio
+        function stopAudio() {
+            if (my_media) {
+                my_media.stop();
+            }
+            clearInterval(mediaTimer);
+            mediaTimer = null;
+        }
+        // onSuccess Callback
+        function onSuccess() {}
+        function onError(error) {}
+        // Set audio position
+        function setAudioPosition(position) {
+            document.getElementById('audio_position').innerHTML = position;
+        }
+    </script>
+  </head>
+<body>
+  <!-- LOADER -->
+  <div class="loader"></div>
+
+  <!-- FAKE SPLASH -->
+  <div class="loader_video">
+    <div class="spalsh_text">
+      <div class="letter klet"><img src="images/K.png"></div>
+      <div class="letter ilet"><img src="images/i.png"></div>
+      <div class="letter dlet"><img src="images/d.png"></div>
+      <div class="letter dotlet"><img src="images/idot.png"></div>
+      <div class="letter elet"><img src="images/E.png"></div>
+      <div class="letter rlet"><img src="images/r.png"></div>
+      <div class="letter ulet"><img src="images/u.png"></div>
+      <div class="letter dlet2"><img src="images/d1.png"></div>
+      <div class="letter ilet2"><img src="images/i1.png"></div>
+      <div class="letter tlet"><img src="images/t.png"></div>
+      <div class="letter elet1"><img src="images/e1.png"></div>
+      <div class="letter dot2let"><img src="images/idot1.png"></div>
+      <div class="letter text"><img src="images/mobileLC.png"></div>
+    </div>
+  </div>
+  <!-- /FAKE SPLASH -->
+
+  <!-- MAIN PAGE  -->
+  <div data-role="page" id="main" data-theme="a">
+      <!-- top -->
+      <div class="top">
+        <a href="#info" class="info"></a>
+        <select class="select_box" data-role="none"></select>
+        <select class="select_box2" data-role="none"></select>
+        <a href="#favorites" class="favorite"></a>        
+      </div>
+      <!-- end top -->
+
+      <!-- slider -->
+      <div class="slider-main"></div>
+      <div class="nema-fav"><span></span></div>
+      <!-- end slider -->
+
+      <!-- bot bg -->
+      <div class="child"></div>
+      <!--back to home-->
+      <a href="#" class="gohome"></a>        
+  </div>
+
+  <!-- INFO PAGE  -->
+  <div data-role="page" id="info" data-theme="a">
+    <div class="wrap">
+
+      <!-- social -->
+      <div class="btns">
+        <ul>
+          <li><a href="#" class="btn1" data-rel="back"></a></li>
+          <li><a href="#" class="btn2"></a></li>
+          <li><a href="#" class="btn3"></a></li>
+        </ul>
+      </div>
+      <!-- end social -->
+
+      <div class="slider">
+
+        <!-- left tabs -->
+        <div class="left_side">
+           <h2></h2>
+           <div class="tabs"></div>
+          <div class="clr"></div>
+        </div>
+        <!-- end tabs -->
+
+        <!-- right tabs -->
+        <div class="right_side">
+            <div class="swiper-container swiper-tabs">
+              <div class="swiper-wrapper"></div>
+            </div>
+        </div>
+
+        <div class="clr"></div>
+        <!-- right tabs -->
+      </div>
+  </div>
+</body>
+</html>

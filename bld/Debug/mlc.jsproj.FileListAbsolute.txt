@@ -1,0 +1,13 @@
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bin\Debug\resources.pri
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bin\Debug\AppxManifest.xml
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bin\Debug\mlc.build.appxrecipe
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\priconfig.xml.intermediate
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\layout.resfiles.intermediate
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\resources.resfiles.intermediate
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\pri.resfiles.intermediate
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\priconfig.xml
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\layout.resfiles
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\resources.resfiles
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\pri.resfiles
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\LanguageQualifiers.txt
+c:\users\oleg\documents\visual studio 2012\Projects\mlc\mlc\bld\Debug\ProjectArchitectures.txt

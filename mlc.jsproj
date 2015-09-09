@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>b68c5d54-8835-4fe6-b5cb-c12bb88600e6</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>ru-RU</DefaultLanguage>
+    <PackageCertificateKeyFile>mlc_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\fav.css" />
+    <Content Include="css\info.css" />
+    <Content Include="css\jquery.mobile-1.4.2.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\structure.css" />
+    <Content Include="css\swiper.css" />
+    <Content Include="css\top.css" />
+    <Content Include="default.html" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\backbutton.png" />
+    <Content Include="images\Badge-logo-24.png" />
+    <Content Include="images\child.png" />
+    <Content Include="images\d.png" />
+    <Content Include="images\d1.png" />
+    <Content Include="images\E.png" />
+    <Content Include="images\e1.png" />
+    <Content Include="images\favorite_add.png" />
+    <Content Include="images\favorite_block.png" />
+    <Content Include="images\fbutton.png" />
+    <Content Include="images\gbutton.png" />
+    <Content Include="images\heart.png" />
+    <Content Include="images\i.png" />
+    <Content Include="images\i1.png" />
+    <Content Include="images\idot.png" />
+    <Content Include="images\idot1.png" />
+    <Content Include="images\K.png" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\Logo-150.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mobileLC.png" />
+    <Content Include="images\pagination_s.png" />
+    <Content Include="images\r.png" />
+    <Content Include="images\screen-xhdpi-landscape.png" />
+    <Content Include="images\Small-logo-30.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splash.gif" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\t.png" />
+    <Content Include="images\top.png" />
+    <Content Include="images\u.png" />
+    <Content Include="images\Wide-logo-310.png" />
+    <Content Include="js\cordova.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile-1.4.2.min.js" />
+    <Content Include="js\plugins\idangerous.swiper.min.js" />
+    <Content Include="js\plugins\jquery.dotdotdot.min.js" />
+    <Content Include="js\plugins\jquery.slides.min.js" />
+    <Content Include="js\plugins\selectbox.js" />
+    <Content Include="js\ready\func.js" />
+    <Content Include="js\ready\init.js" />
+    <Content Include="song.mp3" />
+    <None Include="mlc_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
